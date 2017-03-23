@@ -1,0 +1,31 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #06d6a0;
+}
+main {
+    max-width: 1000px;
+}
+
+#home {
+    background-color: #26547c;
+}
+
+#cats {
+    background-color: #ffd166;
+}
+
+#products {
+    background-color: #f2f2f2;}
+
+#about {
+    background-color: #26547c;
+}
