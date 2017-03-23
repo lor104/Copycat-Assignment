@@ -73,6 +73,24 @@ li {
     /* margin: 0; */
 }
 
+.about-section-titles {
+    overflow: hidden;
+}
+
+div.about-section-titles > h2 {
+    float: left;
+    width: 33%;
+    text-align: center;
+    text-transform: uppercase;
+    color: crimson;
+    font-size: 35px;
+}
+
+section.about-section > p {
+    color:  white;
+    font-size: 25px;
+}
+
 #home {
     background-color: #26547c;
     overflow: auto;
