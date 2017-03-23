@@ -33,10 +33,27 @@ nav > a {
 
 main {
     max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+img.cat-walpaper {
+    float:  left;
+    width: 60%;
+}
+
+h1 {
+    /* float: left; */
+    /* display: inline-block; */
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    /* margin: auto; */
 }
 
 #home {
     background-color: #26547c;
+    overflow: auto;
 }
 
 #cats {
