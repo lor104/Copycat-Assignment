@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+h2.logo {
+    line-height: 50px;
+    padding-left: 20px;
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -10,7 +15,21 @@ html {
 
 header, footer {
     background-color: #06d6a0;
+    position:  relative;
+    height: 50px;
 }
+
+nav {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    line-height: 50px;
+}
+
+nav > a {
+    margin: 3px;
+}
+
 main {
     max-width: 1000px;
 }
