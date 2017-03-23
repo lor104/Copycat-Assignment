@@ -51,9 +51,14 @@ h1 {
     /* margin: auto; */
 }
 
+section {
+    padding: 30px 20px;
+}
+
 #home {
     background-color: #26547c;
     overflow: auto;
+    padding: 0 0 5px; 
 }
 
 #cats {
